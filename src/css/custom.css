@@ -363,7 +363,7 @@ html[data-theme="dark"] .DocSearch-Hit a {
   display: inline-block;
 }
 
-.navbar__item.V3_active.V3 {
+.navbar__item.V1_active.V3 {
   display: inline-block;
 }
 
@@ -375,7 +375,7 @@ html[data-theme="dark"] .DocSearch-Hit a {
   display: inline-block;
 }
 
-.menu__link.V3_active,
+.menu__link.V1_active,
 .V2_active,
 .V1_active {
   display: none;
@@ -389,7 +389,7 @@ html[data-theme="dark"] .DocSearch-Hit a {
   display: flex;
 }
 
-.menu__link.V3_active.V3 {
+.menu__link.V1_active.V3 {
   display: flex;
 }
 

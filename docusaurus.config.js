@@ -1,13 +1,13 @@
 module.exports = {
-  title: "Uniswap",
+  title: "Revest",
   tagline: "Documentation and Guides",
-  url: "https://docs.uniswap.org/",
+  url: "https://docs.Revest.org/",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "ignore",
   favicon: "img/favicon.png",
-  organizationName: "Uniswap", // Usually your GitHub org/user name.
-  projectName: "Uniswap-docs", // Usually your repo name.
+  organizationName: "Revest-Finance", // Usually your GitHub org/user name.
+  projectName: "Revest-docs", // Usually your repo name.
   themeConfig: {
     image: "img/twitter_card_bg.jpg",
     prism: {
@@ -19,17 +19,17 @@ module.exports = {
       appId: "S0IDD0YGLZ",
     },
     navbar: {
-      title: "Uniswap Docs",
+      title: "Revest Docs",
       logo: {
-        alt: "Uniswap Unicorn",
-        src: "img/uni_dark_icon.svg",
+        alt: "Revest",
+        src: "img/Revest Logo 1.svg",
       },
       items: [
         {
           type: "docsVersionDropdown",
           //// Optional
           position: "left",
-          dropdownActiveClassDisabled: true,
+          dropdownActiveClassDisabled: false,
           docsPluginId: "default",
           className: "persistent",
         },
@@ -37,80 +37,86 @@ module.exports = {
           to: "/protocol/reference/smart-contracts",
           label: "Contracts",
           position: "left",
-          className: "V3_active",
+          className: "V1_active",
         },
         {
           to: "/sdk/introduction",
           label: "SDK",
           position: "left",
-          className: "V3_active",
+          className: "V1_active",
         },
         {
           to: "/sdk/Subgraph%20data",
           label: "Subgraph (API)",
           position: "left",
-          className: "V3_active",
+          className: "V1_active",
         },
         {
           to: "/protocol/concepts/governance/overview",
           label: "Governance",
           position: "left",
-          className: "V3_active",
-        },
-        {
-          to: "/protocol/V2/guides/smart-contract-integration/quick-start",
-          label: "Contracts",
-          position: "left",
-          className: "V2_active",
-        },
-        {
-          to: "/sdk/2.0.0/introduction",
-          label: "SDK",
-          position: "left",
-          className: "V2_active",
-        },
-        {
-          to: "/protocol/V2/reference/API/overview",
-          label: "Subgraph (API)",
-          position: "left",
-          className: "V2_active",
-        },
-        {
-          to: "/protocol/V2/concepts/governance/overview",
-          label: "Governance",
-          position: "left",
-          className: "V2_active",
-        },
-        {
-          to: "/protocol/V1/guides/connect-to-uniswap",
-          label: "Contracts",
-          position: "left",
           className: "V1_active",
         },
+        // {
+        //   to: "/protocol/V2/guides/smart-contract-integration/quick-start",
+        //   label: "Contracts",
+        //   position: "left",
+        //   className: "V2_active",
+        // },
+        // {
+        //   to: "/sdk/2.0.0/introduction",
+        //   label: "SDK",
+        //   position: "left",
+        //   className: "V2_active",
+        // },
+        // {
+        //   to: "/protocol/V2/reference/API/overview",
+        //   label: "Subgraph (API)",
+        //   position: "left",
+        //   className: "V2_active",
+        // },
+        // {
+        //   to: "/protocol/V2/concepts/governance/overview",
+        //   label: "Governance",
+        //   position: "left",
+        //   className: "V2_active",
+        // },
+        // {
+        //   to: "/protocol/V1/guides/connect-to-uniswap",
+        //   label: "Contracts",
+        //   position: "left",
+        //   className: "V1_active",
+        // },
+        // {
+        //   to: "/sdk/1.0.0/introduction",
+        //   label: "SDK",
+        //   position: "left",
+        //   className: "V1_active",
+        // },
         {
-          to: "/sdk/1.0.0/introduction",
-          label: "SDK",
-          position: "left",
-          className: "V1_active",
-        },
-        {
-          label: "Whitepaper",
-          to: "https://uniswap.org/whitepaper-v3.pdf",
+          label: "One Pager",
+          to: "https://revest.finance/Revest-One-Pager.pdf",
           position: "right",
           className: "persistent",
         },
         {
-          href: "https://github.com/uniswap/uniswap-docs",
+          label: "Whitepaper",
+          to: "https://revest.finance/Revest_Whitepaper.pdf",
+          position: "right",
+          className: "persistent",
+        },
+        {
+          href: "https://github.com/Revest-Finance",
           label: "GitHub",
           position: "right",
           className: "persistent",
         },
-        {
-          href: "https://unigrants.org/",
-          label: "Grants",
-          position: "right",
-          className: "persistent",
-        },
+        // {
+        //   href: "https://unigrants.org/",
+        //   label: "Grants",
+        //   position: "right",
+        //   className: "persistent",
+        // },
         {
           type: "localeDropdown",
 
@@ -133,17 +139,23 @@ module.exports = {
         {
           title: "Developers",
           items: [
+            // TODO: Is there any BugBounty
+            // {
+            //   label: "Bug Bounty",
+            //   href: "https://github.com/Uniswap/uniswap-v3-periphery/blob/main/bug-bounty.md",
+            // },
+            // TODO: Is there any Dev chat for developers who wanna integrate Revest
+            // {
+            //   label: "#dev-chat",
+            //   href: "https://discord.gg/ybKVQUWb4s",
+            // },
             {
-              label: "Bug Bounty",
-              href: "https://github.com/Uniswap/uniswap-v3-periphery/blob/main/bug-bounty.md",
-            },
-            {
-              label: "#dev-chat",
-              href: "https://discord.gg/ybKVQUWb4s",
+              label: "One Pager",
+              href: "https://revest.finance/Revest-One-Pager.pdf",
             },
             {
               label: "Whitepaper",
-              href: "https://uniswap.org/whitepaper-v3.pdf",
+              href: "https://revest.finance/Revest_Whitepaper.pdf",
             },
           ],
         },
@@ -151,21 +163,9 @@ module.exports = {
           title: "Github",
           items: [
             {
-              label: "uniswap-v3-core",
-              href: "https://github.com/Uniswap/uniswap-v3-core",
-            },
-            {
-              label: "uniswap-v3-sdk",
-              href: "https://github.com/Uniswap/uniswap-v3-sdk",
-            },
-            {
-              label: "uniswap-v3-periphery",
-              href: "https://github.com/Uniswap/uniswap-v3-periphery",
-            },
-            {
-              label: "Deployment addresses",
-              href: "https://github.com/Uniswap/uniswap-v3-periphery/blob/main/deploys.md",
-            },
+              label: "RevestContracts",
+              href: "https://github.com/Revest-Finance/RevestContracts",
+            }
           ],
         },
         {
@@ -173,45 +173,59 @@ module.exports = {
           items: [
             {
               label: "Home",
-              href: "https://uniswap.org/",
+              href: "https://revest.finance/",
             },
             {
               label: "App",
-              href: "https://app.uniswap.org/",
+              href: "https://app.revest.finance/",
             },
             {
-              label: "Analytics",
-              href: "https://info.uniswap.org/home",
+              label: "Gallery",
+              href: "https://app.revest.finance/",
             },
             {
-              label: "Token Lists",
-              href: "https://tokenlists.org/",
+              label: "Mint",
+              href: "https://app.revest.finance/mint",
             },
             {
-              label: "Brand Assets",
-              href: "https://uniswap.org/Uniswap_brand_assets.zip",
+              label: "Staking",
+              href: "https://app.revest.finance/staking",
             },
+            {
+              label: "Claim",
+              href: "https://revest.finance/claim",
+            },
+            // TODO: Check the brand assets
+            // {
+            //   label: "Brand Assets",
+            //   href: "https://uniswap.org/Uniswap_brand_assets.zip",
+            // },
           ],
         },
         {
           title: "Community",
           items: [
             {
-              label: "Governance",
-              href: "https://gov.uniswap.org/",
+              label: "Subscribe",
+              href: "https://revest.finance/#subscribe",
+            },
+            {
+              label: "Telegram",
+              href: "https://t.me/revestfinance",
             },
             {
               label: "Discord",
-              href: "https://discord.gg/ybKVQUWb4s",
+              href: "https://discord.com/invite/TdJSzW9H4G",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/Uniswap",
+              href: "https://twitter.com/RevestFinance",
             },
-            {
-              label: "Blog",
-              href: "https://uniswap.org/blog/",
-            },
+            // TODO: Check the blog page
+            // {
+            //   label: "Blog",
+            //   href: "https://uniswap.org/blog/",
+            // },
           ],
         },
       ],

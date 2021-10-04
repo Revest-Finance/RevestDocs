@@ -13,7 +13,7 @@ export default function NavbarItem(props) {
   } else if (versionDoc[2] === "V1" || versionDoc[2] === "1.0.0") {
     activeNav = "V1";
   } else {
-    activeNav = "V3";
+    activeNav = "V1";
   }
 
   return (

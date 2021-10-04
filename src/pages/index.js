@@ -7,6 +7,7 @@ import "./styles.module.css";
 import styled from "@emotion/styled";
 
 import Discord from "@site/static/img/discord.svg";
+import Telegram from "@site/static/img/telegram.svg";
 import UGP from "@site/static/img/UGP.png";
 
 import ThemedImage from "@theme/ThemedImage";
@@ -283,8 +284,8 @@ const HideMedium = styled.div`
 export default function Home() {
   return (
     <Layout
-      title={`Uniswap Docs`}
-      description="Technical Documentation For The Uniswap Protocol"
+      title={`Revest Docs`}
+      description="Technical Documentation For The Revest Protocol"
     >
       <Container>
         <DocsHeader>
@@ -297,7 +298,7 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <h1 style={{ fontWeight: "600" }}> Welcome to the Uniswap Docs</h1>
+            <h1 style={{ fontWeight: "600" }}> Welcome to the Revest Docs</h1>
             <HideMedium>
               <SearchBar />{" "}
             </HideMedium>
@@ -527,17 +528,18 @@ export default function Home() {
         <Row>
           <Link
             style={{ textDecoration: "none" }}
-            href={"https://discord.gg/ybKVQUWb4s"}
+            href={"https://discord.gg/TdJSzW9H4G"}
           >
             <CenterCard>
               <Discord style={{ width: "48px", height: "48px" }} />
               <div>
                 <h3>Discord</h3>
-                <p>Hop in to the #dev-chat to get realtime help.</p>
+                <p>Hop in to the #general to get realtime help.</p>
               </div>
             </CenterCard>
           </Link>
-          <Link
+          {/* TODO: Check the Forum */}
+          {/* <Link
             style={{ textDecoration: "none" }}
             href={"https://gov.uniswap.org/"}
           >
@@ -548,11 +550,24 @@ export default function Home() {
                 <p>Dicsuss governance and more.</p>
               </div>
             </CenterCard>
+          </Link> */}
+
+          <Link
+            style={{ textDecoration: "none" }}
+            href={"https://t.me/revestfinance"}
+          >
+            <CenterCard>
+              <Telegram style={{ width: "48px", height: "48px" }} />
+              <div>
+                <h3>Telegram</h3>
+                <p>Check updates, dicsuss questions and more.</p>
+              </div>
+            </CenterCard>
           </Link>
 
           <Link
             style={{ textDecoration: "none" }}
-            href={"https://github.com/Uniswap"}
+            href={"https://github.com/Revest-Finance"}
           >
             <CenterCard>
               <StyledGithubIcon>
@@ -607,7 +622,7 @@ export default function Home() {
             </CenterCard>
           </Link>
         </Row>
-        <Link
+        {/* <Link
           style={{
             textDecoration: "none",
             maxWidth: "960px",
@@ -634,7 +649,7 @@ export default function Home() {
               </p>
             </div>
           </WideCard>
-        </Link>
+        </Link> */}
       </Container>
     </Layout>
   );
