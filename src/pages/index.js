@@ -25,26 +25,26 @@ import {
 
 export const actions = [
   {
-    title: "What is Uniswap",
+    title: "What is Revest",
     href: "#",
     icon: InformationCircleIcon,
     to: "./protocol/introduction",
-    text: `Learn about the core concepts of the Uniswap protocol. Swaps, Pools, Concentrated Liquidity and more.`,
+    text: `Learn about the core concepts of the Revest protocol. Time Lock, Value Lock, Address Lock mints and more.`,
   },
   {
     title: "Smart contract overview",
     href: "#",
     icon: BookOpenIcon,
     to: "./protocol/reference/smart-contracts",
-    text: `Learn about the architecture of the Uniswap protocol smart contracts made up of the Core and Periphary libraries.`,
-  },
-  {
-    title: "V3 SDK",
-    href: "#",
-    icon: QuestionMarkCircleIcon,
-    to: "./sdk/introduction",
-    text: `The SDK is designed to assist developers when interacting with the protocol in any environment that can execute JavaScript.`,
-  },
+    text: `Learn about the architecture of the Revest protocol smart contracts made up of the Core and Periphary libraries.`,
+  }
+  // {
+  //   title: "V3 SDK",
+  //   href: "#",
+  //   icon: QuestionMarkCircleIcon,
+  //   to: "./sdk/introduction",
+  //   text: `The SDK is designed to assist developers when interacting with the protocol in any environment that can execute JavaScript.`,
+  // },
 ];
 
 export const github = [
