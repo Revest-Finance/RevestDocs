@@ -33,30 +33,31 @@ module.exports = {
           docsPluginId: "default",
           className: "persistent",
         },
-        {
-          to: "/protocol/reference/smart-contracts",
-          label: "Contracts",
-          position: "left",
-          className: "V1_active",
-        },
-        {
-          to: "/sdk/introduction",
-          label: "SDK",
-          position: "left",
-          className: "V1_active",
-        },
-        {
-          to: "/sdk/Subgraph%20data",
-          label: "Subgraph (API)",
-          position: "left",
-          className: "V1_active",
-        },
-        {
-          to: "/protocol/concepts/governance/overview",
-          label: "Governance",
-          position: "left",
-          className: "V1_active",
-        },
+        // TODO: Check these links
+        // {
+        //   to: "/protocol/reference/smart-contracts",
+        //   label: "Contracts",
+        //   position: "left",
+        //   className: "V1_active",
+        // },
+        // {
+        //   to: "/sdk/introduction",
+        //   label: "SDK",
+        //   position: "left",
+        //   className: "V1_active",
+        // },
+        // {
+        //   to: "/sdk/Subgraph%20data",
+        //   label: "Subgraph (API)",
+        //   position: "left",
+        //   className: "V1_active",
+        // },
+        // {
+        //   to: "/protocol/concepts/governance/overview",
+        //   label: "Governance",
+        //   position: "left",
+        //   className: "V1_active",
+        // },
         // {
         //   to: "/protocol/V2/guides/smart-contract-integration/quick-start",
         //   label: "Contracts",
