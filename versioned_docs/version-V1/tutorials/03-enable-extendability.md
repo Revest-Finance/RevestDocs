@@ -1,6 +1,6 @@
 ---
 id: enable-extendability
-title: "Enable Extendability" Function
+title: Enable Extendability Function
 ---
 
 This turorial will explain how to use the "Enable Extendability" function under Advanced settings when minting FNFTs with the Revest Protocol. The Extendable Maturity function is only available for Time lock FNFTs, as it requires a specific unlock date in order to for the function to work.

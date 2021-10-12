@@ -1,6 +1,6 @@
 ---
 id: enable-extendability
-title: "Enable Multiple Deposits" Function
+title: Enable Multiple Deposits Function
 ---
 
 > This is a tutorial to show how one can successfully make multiple deposits to the same FNFT.
